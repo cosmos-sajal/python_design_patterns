@@ -1,3 +1,9 @@
+## Docs - https://deductionlearning.com/design-patterns/observer-pattern-introductory-example/
+## https://www.youtube.com/watch?v=wiQdrH2YpT4&list=PLF206E906175C7E07&index=4
+## https://www.quora.com/What-are-some-real-world-uses-of-observer-pattern
+## difference between PubSub  and Observer Pattern -
+## https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c
+
 from abc import ABCMeta, abstractmethod
 
 
