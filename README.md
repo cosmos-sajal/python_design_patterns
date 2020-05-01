@@ -2,3 +2,4 @@
 
 Implementing the following design patterns in python
 1. Observer Pattern
+2. Strategy Pattern
