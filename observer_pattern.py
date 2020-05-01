@@ -1,8 +1,8 @@
-## Docs - https://deductionlearning.com/design-patterns/observer-pattern-introductory-example/
-## https://www.youtube.com/watch?v=wiQdrH2YpT4&list=PLF206E906175C7E07&index=4
-## https://www.quora.com/What-are-some-real-world-uses-of-observer-pattern
-## difference between PubSub  and Observer Pattern -
-## https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c
+# Docs - https://deductionlearning.com/design-patterns/observer-pattern-introductory-example/
+# https://www.youtube.com/watch?v=wiQdrH2YpT4&list=PLF206E906175C7E07&index=4
+# https://www.quora.com/What-are-some-real-world-uses-of-observer-pattern
+# difference between PubSub  and Observer Pattern -
+# https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c
 
 from abc import ABCMeta, abstractmethod
 
@@ -38,7 +38,7 @@ class StockObserver(Observer):
     def update(self, googlePrice, applePrice, ibmPrice):
         print("observer id -" + str(self.observerId))
         print("the prices are:" + str(googlePrice) +
-               " " + str(applePrice) + " " + str(ibmPrice))
+              " " + str(applePrice) + " " + str(ibmPrice))
 
 
 class StockGrabber(Subject):
@@ -69,7 +69,6 @@ class StockGrabber(Subject):
     def setIBMPrice(self, price):
         self.ibmPrice = price
         self.notify()
-
 
 
 stockGrabber = StockGrabber()
