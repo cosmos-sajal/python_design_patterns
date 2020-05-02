@@ -5,3 +5,5 @@ Implementing the following design patterns in python
 2. Strategy Pattern
 3. Factory Pattern
 4. Adapter Pattern
+5. Builder Pattern
+6. Singleton Pattern

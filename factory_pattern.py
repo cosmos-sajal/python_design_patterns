@@ -6,7 +6,8 @@ from abc import ABCMeta, abstractmethod
 
 
 class DBTable(metaclass=ABCMeta):
-    def createTable(self):
+    @abstractmethod
+    def create_table(self):
         pass
 
 
