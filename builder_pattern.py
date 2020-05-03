@@ -1,4 +1,5 @@
 # https://stackoverflow.com/questions/757743/what-is-the-difference-between-builder-design-pattern-and-factory-design-pattern
+# https://stackoverflow.com/questions/328496/when-would-you-use-the-builder-pattern
 
 from abc import ABCMeta, abstractmethod
 
